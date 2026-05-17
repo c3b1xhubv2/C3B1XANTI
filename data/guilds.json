@@ -1,0 +1,108 @@
+{
+  "guilds": {
+    "917724237626748938": {
+      "antilink": {
+        "enabled": true,
+        "mode": "specific",
+        "channels": [
+          "1403723478485434458",
+          "1474347394563838114",
+          "1474361589867221013"
+        ],
+        "exemptRoles": [],
+        "timeoutDuration": 300000,
+        "logChannel": "1493849186662219776"
+      },
+      "antispam": {
+        "enabled": true,
+        "mode": "all",
+        "channels": [],
+        "exemptRoles": [],
+        "maxMessages": 3,
+        "timeWindow": 2000,
+        "timeoutDuration": 600000,
+        "deleteMessages": true,
+        "logChannel": "1493849186662219776"
+      },
+      "verification": {
+        "enabled": false,
+        "channel": null,
+        "logChannel": null,
+        "verifiedRole": null,
+        "unverifiedRole": null,
+        "captchaType": "text",
+        "timeout": 300000,
+        "maxAttempts": 3,
+        "kickOnFail": true
+      }
+    },
+    "1341740005881548820": {
+      "antilink": {
+        "enabled": true,
+        "mode": "specific",
+        "channels": [
+          "1413350391344660550",
+          "1413427052991873084",
+          "1413427172747644980"
+        ],
+        "exemptRoles": [],
+        "timeoutDuration": 600000,
+        "logChannel": "1442470239630786590"
+      },
+      "antispam": {
+        "enabled": false,
+        "mode": "all",
+        "channels": [],
+        "exemptRoles": [],
+        "maxMessages": 5,
+        "timeWindow": 5000,
+        "timeoutDuration": 300000,
+        "deleteMessages": true,
+        "logChannel": null
+      },
+      "verification": {
+        "enabled": true,
+        "channel": "1442462716156706950",
+        "logChannel": "1442462733592428668",
+        "verifiedRole": "1413415229668327568",
+        "unverifiedRole": null,
+        "captchaType": "math",
+        "timeout": 300000,
+        "maxAttempts": 3,
+        "kickOnFail": false
+      }
+    },
+    "1404530083225665588": {
+      "antilink": {
+        "enabled": false,
+        "mode": "all",
+        "channels": [],
+        "exemptRoles": [],
+        "timeoutDuration": 300000,
+        "logChannel": null
+      },
+      "antispam": {
+        "enabled": false,
+        "mode": "all",
+        "channels": [],
+        "exemptRoles": [],
+        "maxMessages": 5,
+        "timeWindow": 5000,
+        "timeoutDuration": 300000,
+        "deleteMessages": true,
+        "logChannel": null
+      },
+      "verification": {
+        "enabled": false,
+        "channel": null,
+        "logChannel": null,
+        "verifiedRole": null,
+        "unverifiedRole": null,
+        "captchaType": "text",
+        "timeout": 300000,
+        "maxAttempts": 3,
+        "kickOnFail": true
+      }
+    }
+  }
+}
